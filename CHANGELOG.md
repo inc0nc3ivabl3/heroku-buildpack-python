@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add support for Heroku-22 ([#1299](https://github.com/heroku/heroku-buildpack-python/pull/1299)).
+- No longer set a fallback value for `$STACK`, since it is always set on Heroku ([#1299](https://github.com/heroku/heroku-buildpack-python/pull/1299)).
 
 ## v209 (2022-03-24)
 
